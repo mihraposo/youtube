@@ -1,0 +1,62 @@
+#bodylog {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-grow: 1;
+    height: 100vh;
+
+    background-color: #212121;
+}
+
+
+
+form {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 20px;
+    text-shadow: 5px white;
+}
+
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    color: red;
+    margin: 15px;
+    border: 1px white;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: antiquewhite;
+    box-shadow: 10px #212121;
+    color: grey;
+    font-weight: bold;
+}
+
+.enviar {
+    background-color: red;
+    height: 40px;
+    width: 320px;
+    padding: 10px;
+    margin: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid;
+    color: #212121;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
